@@ -1,0 +1,85 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2D2D2D;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns avatar, title, and contact info */
+}
+
+.avatar {
+    margin-right: 20px; /* Increased margin for more left positioning */
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 80px; /* Increased height for larger avatar */
+}
+
+.title {
+    text-align: left;
+}
+
+.contact {
+    text-align: right;
+}
+.contact h1{
+    text-align: left;
+}
+
+.contact p {
+    margin: 5px 0; /* Adjust margin between contact information */
+    display: flex;
+    align-items: center;
+    color: #9B59B6;
+}
+
+.symbol {
+    margin-right: 5px; /* Space between symbol and email/LinkedIn text */
+}
+
+.contact a {
+    color: #FFFFFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+header h1 {
+    color: #9B59B6;
+}
+
+.container {
+    padding: 20px;
+}
+
+.project {
+    background-color: #1C1C1C;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.project h2 {
+    color: #9B59B6;
+}
+
+.project p {
+    color: #CCCCCC;
+}
+
+.footer {
+    background-color: #2D2D2D;
+    padding: 10px;
+    text-align: center;
+}

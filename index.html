@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="avatar">
+            <img src="avatarr.png" alt="Avatar" height="80">
+        </div>
+        <div class="title">
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio. Here you will find some of my projects.</p>
+        </div>
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <p><span class="symbol">•</span> <a href="mailto:mohammedloza619@gmail.com">mohammedloza619@gmail.com</a></p>
+            <p><span class="symbol">•</span> <a href="https://www.linkedin.com/in/mohamed-samir-41b342234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="project" onclick="window.location.href='titanic_details.html';">
+            <h2>Titanic Survival Prediction</h2>
+            <p>This project uses the Titanic dataset to predict the survival of passengers using various machine learning models.</p>
+        </div>
+        <div class="project" onclick="window.location.href='breast_cancer_details.html';">
+            <h2>Breast Cancer Diagnosis Classification</h2>
+            <p>This project uses the Breast Cancer Wisconsin dataset to classify whether a tumor is benign or malignant.</p>
+        </div>
+        <div class="project" onclick="window.location.href='book_recommendation_details.html';">
+            <h2>Book Recommendation System</h2>
+            <p>This project recommends books based on user preferences and past interactions.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
