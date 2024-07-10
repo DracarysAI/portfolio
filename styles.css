@@ -1,3 +1,4 @@
+/* CSS styles for the portfolio page */
 body {
     background-color: #000000;
     color: #FFFFFF;
@@ -30,7 +31,8 @@ header {
 .contact {
     text-align: right;
 }
-.contact h1{
+
+.contact h1 {
     text-align: left;
 }
 
@@ -68,6 +70,12 @@ header h1 {
     padding: 20px;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.project:hover {
+    background-color: #333333; /* Darken background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 .project h2 {
